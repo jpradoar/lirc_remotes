@@ -1,0 +1,39 @@
+############### RELE 1 #####################
+begin
+    button = KEY_NUMERIC_1
+    repeat = 0
+    prog   = irexec
+    config = gpio write 1 1
+end
+
+begin
+    button = KEY_NUMERIC_2
+    repeat = 0
+    prog   = irexec
+    config = gpio write 1 0
+end
+
+
+############### RELE 2 #####################
+begin
+    button = KEY_NUMERIC_4 
+    repeat = 0
+    prog   = irexec
+    config = gpio write 2 1
+end
+
+begin
+    button = KEY_NUMERIC_5
+    repeat = 0
+    prog   = irexec
+    config = gpio write 2 0
+end
+
+
+##########  TEST #############
+begin
+    button = KEY_NUMERIC_7
+    repeat = 0
+    prog   = irexec
+    config = wall -n Hola 
+end
